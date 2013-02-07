@@ -1,0 +1,18 @@
+<style type="text/css">
+<!--
+
+.lowText { text-decoration: none; color: black; font: 8pt tahoma,verdana,Arial,Helvetica; text-align: left; text-indent: 3px;}
+.highText { text-decoration: none; color: white; font: 8pt tahoma,verdana,Arial,Helvetica; text-align: left; text-indent: 3px; }
+.rootBorder { border-right: 1px solid silver; }
+.itemBorder { border: 1px solid silver }
+.itemBorderBlank { border: 1px solid #DEDEDE }
+
+/* Delete these "button" styles if you're not using them */
+
+.buttonText { text-decoration: none; color: #FFCC99; font: Bold 8pt verdana,Arial,Helvetica }
+.buttonHover { text-decoration: none; color: #99CCFF; font: Bold 8pt verdana,Arial,Helvetica; padding: 1px }
+.buttonBorder { border: 1px outset #339966 }
+.buttonBorderOver { border: 1px inset #CC9966 }
+
+-->
+</style>

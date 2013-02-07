@@ -1,0 +1,41 @@
+[KULIAH]
+ID=1
+TahunID=2012-2
+ProgramID=.REGULER.
+ProdiID=.03.
+ProdiID1=03
+PRD=Program S1 Keperawatan (Reguler dan Khusus)
+FakultasID=BIDAN
+FAK=Keperawatan dan Kebidanan
+MKID=2
+MKKode=MKK01001
+Nama=ANATOMI FISIOLOGI                     
+NamaKelas=1
+SKS=3
+JenisJadwalID=K
+DosenID=dosen
+DSN=Dosen Testing, Test
+HariID=1
+HR=Senin
+JamMulai=08:00:00
+JamSelesai=09:59:00
+Pendownload=trogalko
+[BOBOT]
+TugasMandiri=20.00
+Tugas1=0.00
+Tugas2=0.00
+Tugas3=0.00
+Tugas4=0.00
+Tugas5=0.00
+Presensi=5.00
+UTS=30.00
+UAS=45.00
+Responsi=0.00
+[GRADE]
+Jumlah=0
+[MHSW]
+Jumlah=0
+[TAG]
+AUTHOR=EMANUEL SETIO DEWO
+EMAIL=
+WEBSITE=

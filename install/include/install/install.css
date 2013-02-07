@@ -1,0 +1,39 @@
+.box {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cwPageBg {
+	background-color:#cccccc;
+	background-image:url(images/pageBackground.gif);
+	background-repeat:repeat-x;
+}
+.cwHeadBg {
+	background-image:url(images/topHeadBg.gif);
+	background-repeat:repeat-x;
+	
+}
+.cwContentDisplay{
+	background-color:#ffffff;
+}
+.cwSelectedTab {
+	background-color:#ffffff;
+}
+.cwUnSelectedTab {
+	background-color:#1B9AE3;
+	color:#ffffff;
+}
+
+.txtBox{
+	width:85%;
+	border:1px solid #666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+}
+ 

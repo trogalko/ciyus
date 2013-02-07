@@ -1,0 +1,315 @@
+html {
+  padding: 0;
+  overflow : auto;
+}
+
+a { text-decoration: none; }
+a:link { color: darkred; }
+a:visited {color: darkred; }
+a:active  {color: darkred; }
+a:hover   {
+  color: darkred;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+BODY {
+  color: #333333;
+  margin: 5px 5px 5px 5px;
+  padding: 0 0 0 0;
+  width: auto;
+  font-family:  Verdana, Arial, Helvetica, sans-serif;
+  font-weight : normal;
+  font-size: 10pt;
+}
+img {
+  border: 0;
+}
+#top { background:url(img/template_02.gif) repeat-x; } 
+.top { background:url(img/template_03.jpg) no-repeat; }
+table.topmenu a { color:#FFFFFF; }
+table.topmenu tr, .topmenu td { background:url(header.gif) repeat-x; padding:6px 20px; }
+
+.menu {
+  font-family : tahoma, helvetica, sans-serif;
+  background: #FFF;
+  font-size : 1em;
+  clear: both;
+}
+.menuitem {
+  border : 1px solid silver;
+  padding: 4px;
+}
+.menuaktif {
+  border : 1px solid silver;
+  background : #CCFFCC;
+  padding: 4px;
+}
+.JudulBesar {
+  clear: both;
+  text-align: center;
+  font-size: 3em;
+  font-family: Times;
+  color: gray;
+}
+.Judul {
+  clear: both;
+  font-size: 2em;
+  font-family: Times;
+  text-align: center;
+  padding: 2px;
+  color: #8B8378;
+  background: transparent url(img/bot_bg.jpg) repeat-x scroll;
+  border-bottom: 1px solid #DDD;
+}
+.NamaLogin {
+  position:relative;
+  top:-18px;
+  float: right;
+  font-size: 0.8em;
+  color: gray;
+}
+.MenuDirectory {
+  position:relative;
+  top:-18px;
+  float: left;
+  font-size: 0.9em;
+  color: gray;
+}
+.isi {
+  background: #F3F3F3;
+  border: 1px solid #999999;
+  clear: both;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+}
+.box {
+  font-size: 1em;
+  border: 1px solid silver;
+  background-color: white;
+}
+.bsc {
+  font-size: 1em;
+}
+.ttl {
+  border-bottom : 1px solid gray;
+  border-right: 1px solid gray;
+  background: transparent url(img/side_block_bg.gif) repeat scroll;
+  font-family:  Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFF;
+}
+.inp {
+  font-size: 0.8em;
+  color: navy;
+  text-align: right;
+  /*background-color: rgb(240,240,200);*/
+  background: transparent url(themes/default/img/header/panel_08.gif) scroll repeat-x;
+  border-bottom: 1px solid silver;
+  padding: 4px;
+}
+.inp1 {
+  background : url(img/bot_bg.jpg) repeat-x scroll;
+  border-bottom: 1px solid silver;
+  padding: 4px;
+}
+.inp2 {
+  background-color: #DDBDDD;
+  padding: 4px;
+}
+.inp3{
+  background-color : rgb(255,255,204);
+  border-bottom: 1px solid #DDD;
+  padding: 4px;
+}
+.inp4{
+  background-color : rgb(204,204,255);
+  border-bottom: 1px solid #DDD;
+  padding: 4px;
+}
+.nac {
+  background-color : #DEDEDE;
+  border-bottom: 1px solid silver;
+  color : black;
+  padding: 4px;
+}
+.hdr {
+  background-color : white;
+  border-top: 2px solid silver;
+  border-bottom: 1px solid silver;
+  font-weight: bold;
+}
+.ul {
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
+}
+.ul1 {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 4px;
+}
+.oke {
+  background: #66FF66;
+  border-bottom: 1px solid #ddd;
+}
+.kolkir {
+  border-right: 1px solid silver;
+  padding: 0 4px 0 0;
+}
+.kolkan {
+  padding: 0 0 0 4px;
+}
+.cnaY {
+  background-color: rgb(240, 240, 200);
+  color: gray;
+  border-bottom: 1px solid silver;
+}
+.cnaN {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.cnnY {
+  background: yellow;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.cnnN {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid silver;
+}
+.wrn {
+  background-color: #990000;
+  color: #FFF;
+  padding: 4px;
+}
+.kiri {
+  width: 150px;
+  float: left;
+}
+.submenu {
+  font-size: 0.8em;
+  clear: both;
+  display: block;
+}
+.bagian_kiri {
+  float: left;
+  width: 15em;
+  padding-right: 4px;
+}
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 4px;
+  background: transparent url(img/bot_bg.jpg) repeat-x scroll;
+  border-top: 1px solid #DDD;
+  border-bottom: 1px solid #DDD;
+}
+
+
+#JT_arrow_left {
+background-image:url(images/arrow_left.gif);
+background-position:left top;
+background-repeat:no-repeat;
+height:23px;
+left:-12px;
+position:absolute;
+top:-3px;
+width:10px;
+z-index:101;
+}
+#JT_arrow_right {
+background-image:url(images/arrow_right.gif);
+background-position:left top;
+background-repeat:no-repeat;
+height:23px;
+position:absolute;
+top:-2px;
+width:11px;
+z-index:101;
+}
+#JT {
+background-color:#FFFFFF;
+border:2px solid #CCCCCC;
+position:absolute;
+z-index:100;
+}
+#JT_copy {
+color:#333333;
+padding:10px;
+}
+.JT_loader {
+background-image:url(images/loader.gif);
+background-position:center;
+background-repeat:no-repeat;
+height:12px;
+width:100%;
+}
+#JT_close_left {
+background-color:#CCCCCC;
+font-weight:bold;
+padding-bottom:5px;
+padding-left:8px;
+padding-top:2px;
+text-align:left;
+}
+#JT_close_right {
+background-color:#CCCCCC;
+font-weight:bold;
+padding-bottom:5px;
+padding-left:8px;
+padding-top:2px;
+text-align:left;
+}
+#JT_copy p {
+margin:3px 0pt;
+}
+#JT_copy img {
+border:1px solid #CCCCCC;
+padding:1px;
+}
+.jTip {
+cursor:help;
+}
+
+
+@media print {
+.noprint {display: none;}
+.JudulBesar {
+  clear: both;
+  text-align: center;
+  font-size: 3em;
+  font-family: Times;
+  color: gray;
+  display : none;
+}
+.NamaLogin {
+  float: right;
+  font-size: 0.8em;
+  color: gray;
+  display : none;
+}
+.MenuDirectory {
+  float: left;
+  font-size: 0.8em;
+  color: gray;
+  display : none;
+}
+.menudropdown {
+  clear: both;
+  font-family : sans, tahoma;
+  font-size : 1em;
+  height: 1.2em;
+  float: left;
+  position: relative;
+  display : none;
+}
+.footer {
+  display:none;
+}
+
+thead	{display: table-header-group;	}
+tfoot	{display: table-footer-group;	}
+
+}

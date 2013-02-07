@@ -1,0 +1,13 @@
+<?php
+  // file: connectdb.php
+  // author: E. Setio Dewo, Maret 2003
+
+  $db_username = "~User~";
+  $db_hostname = "~Host~";
+  $db_password = "~Pass~";
+  $db_name = "~Name~";
+
+  $con = _connect($db_hostname, $db_username, $db_password);
+  $db  = _select_db($db_name, $con);
+
+?>

@@ -1,0 +1,11 @@
+                                             Daftar Biaya & Potongan                                              
+                                                BIPOT MASTER 2008                                                 
+                                      Program: REGULER, Prodi: Teknik Sipil                                       
+------------------------------------------------------------------------------------------------------------------
+No. Prio Nama                                Jumlah Penarikan   Oto?  St.Awal      St.Mhsw      Grade 
+------------------------------------------------------------------------------------------------------------------
+1   0    Biaya Orientasi Mahasiswa          100,000 Sebelum Sesi  Y   A,B,D,P,S    A,P               
+2   1    Biaya SPP                       10,000,000 Sebelum Sesi  Y   B            A,P           .A. 
+3   2    Biaya SKS                        1,000,000 Sebelum Sesi  Y   A            A,P               
+4   2    Biaya SKS                           20,000 Sebelum Sesi  Y   B            A,P               
+------------------------------------------------------------------------------------------------------------------
