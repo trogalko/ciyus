@@ -28,8 +28,8 @@
   <script src="jquery.js" language="javascript" type="text/javascript"></script>
   <script src="boxcenter.js" language="javascript" type="text/javascript"></script>
   <script src="jquery.autocomplete.js" language="javascript" type="text/javascript"></script>
-  <script src="jtip.js" language="javascript" type="text/javascript"></script>
-  
+  <script src="jtip.js" language="javascript" type="text/javascript"></script>  
+    
   <link rel="stylesheet" type="text/css" href="menu/ddcolortabs.css" />
   <?php
     if (!empty($_REQUEST['slnt'])) {
